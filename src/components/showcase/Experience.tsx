@@ -10,17 +10,17 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Company name</h1>
+                        <h1>Shopify</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={''}
+                            href={'https://www.shopify.com'}
                         >
-                            <h4>company's website</h4>
+                            <h4>www.shopify.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Position</h3>
+                        <h3>Software Engineer</h3>
                         <b>
                             <p></p>
                         </b>
@@ -29,37 +29,129 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Description
+                    Software Engineer, Shopify - Merchant Services, Shipping (June 2022 - Present)
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            task/accomplishment 1
+                            Resolved critical Ruby on Rails issues during on-call duties, enhancing system stability.
                         </p>
                     </li>
                     <li>
                         <p>
-                            task/accomplishment 2
+                            Drove merchant success by designing,
+                            engineering, and integrating partner APIs for
+                            important feature implementation.
                         </p>
                     </li>
                     <li>
                         <p>
-                            task/accomplishment 2
+                            Bolstered data security for merchants by
+                            developing and sihpping authenticated GraphQL
+                            APIs.
                         </p>
                     </li>
                     <li>
                         <p>
-                            task/accomplishment 2
+                            Fueled development and maintenance of key
+                            software components using JavaScript,
+                            TypeScript, React, GraphQL, Ruby on Rails, and
+                            REST APIs.                    
                         </p>
                     </li>
                     <li>
                         <p>
-                            task/accomplishment 2
+                            Boosted product adoption by 3% through the
+                            successful delivery of a key 'Bring your own
+                            account' feature for merchants.                        
                         </p>
                     </li>
                 </ul>
             </div>
+
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>Coveo</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://www.coveo.com/en'}
+                        >
+                            <h4>www.coveo.com</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>System Administrator intern</h3>
+                        <b>
+                            <p></p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    Internal tooling dev, Coveo - System Administrators (June 2021 - December 2021)
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            Optimized sys admin workflows by developing efficient tools and scripts.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employed a diverse tech stack including Bash, C#, Python, Jenkins, Flask, REST API, ServiceNow, Kubernetes, and Dockers to drive project success.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Demonstrated strong work ethic and
+                            commitment by extending role beyond initial
+                            internship to part-time employment.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>College FXG</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://www.cegepgarneau.ca/cegep/welcome'}
+                        >
+                            <h4>www.cegepgarneau.ca/cegep/welcome</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Tutor</h3>
+                        <b>
+                            <p></p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    Tutor for computer science classes (January 2020 - December 2021)
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            Enhanced student understanding in computer
+                            science and math through adaptive one-on-one
+                            tutoring and mentoring, demonstrating effective
+                            communication and pedagogical flexibility.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <ResumeDownload />
         </div>
     );
 };

@@ -15,7 +15,6 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 over the last few years.
             </p>
             <br />
-            <ResumeDownload />
             <br />
             <div className="text-block">
                 <h2>wilyuhm.dev</h2>
@@ -27,6 +26,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <br />
                 <br />
                 <h3>Links:</h3>
+                <a href="https://wilyuhm.dev">Wilyuhm.dev</a>
             </div>
         </div>
     );

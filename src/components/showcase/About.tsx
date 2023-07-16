@@ -25,14 +25,12 @@ const About: React.FC<AboutProps> = (props) => {
                     Thank you for taking the time to check out my portfolio. I
                     really hope you enjoy exploring it as much as I enjoyed
                     building it. If you have any questions or comments, feel
-                    free to contact me using{' '}
-                    <Link to="/contact">this form</Link> or shoot me an email at{' '}
+                    free to contact me by shooting me an email at{' '}
                     <a href="mailto:contact@wilyuhm.dev">
                         contact@wilyuhm.dev
                     </a>
                 </p>
             </div>
-            <ResumeDownload />
             <div className="text-block">
                 <h3>About Me</h3>
                 <br />
@@ -62,6 +60,7 @@ const About: React.FC<AboutProps> = (props) => {
                     </a>
                 </p>
             </div>
+            <ResumeDownload />
         </div>
     );
 };
