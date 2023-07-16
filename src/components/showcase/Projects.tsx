@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
 import software from '../../assets/pictures/projects/software.gif';
-import art from '../../assets/pictures/projects/art.gif';
-import music from '../../assets/pictures/projects/music.gif';
 
 export interface ProjectsProps {}
 
@@ -64,7 +62,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
     );
 };
 
-const Projects: React.FC<ProjectsProps> = (props) => {
+const Projects: React.FC<ProjectsProps> = () => {
     return (
         <div className="site-page-content">
             <h1>Projects</h1>

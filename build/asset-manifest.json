@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6da48c09.css",
+    "main.js": "/static/js/main.180de609.js",
+    "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
+    "static/media/ProFont.ttf": "/static/media/ProFont.66b52abc6032b9786aac.ttf",
+    "static/media/willyam_arcand_resume.pdf": "/static/media/willyam_arcand_resume.7351ec7c2c09af30ae03.pdf",
+    "static/media/ee.jpg": "/static/media/ee.7656e3a317181c8a39b1.jpg",
+    "static/media/neverGiveUp.jpg": "/static/media/neverGiveUp.c9ee4e48677de77065a9.jpg",
+    "index.html": "/index.html",
+    "main.6da48c09.css.map": "/static/css/main.6da48c09.css.map",
+    "main.180de609.js.map": "/static/js/main.180de609.js.map",
+    "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6da48c09.css",
+    "static/js/main.180de609.js"
+  ]
+}

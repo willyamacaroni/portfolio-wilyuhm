@@ -1,18 +1,8 @@
-import React, { useEffect, useState, useCallback } from 'react';
-import colors from '../../constants/colors';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
 
 export interface ContactProps {}
-
-// function to validate email
-const validateEmail = (email: string) => {
-    const re =
-        // eslint-disable-next-line
-        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(String(email).toLowerCase());
-};
 
 interface SocialBoxProps {
     icon: string;
@@ -29,24 +19,7 @@ const SocialBox: React.FC<SocialBoxProps> = ({ link, icon }) => {
     );
 };
 
-const Contact: React.FC<ContactProps> = (props) => {
-    const [company, setCompany] = useState('');
-    const [email, setEmail] = useState('');
-    const [name, setName] = useState('');
-    const [message, setMessage] = useState('');
-    const [isFormValid, setIsFormValid] = useState(false);
-    const [isLoading, setIsLoading] = useState(false);
-    const [formMessage, setFormMessage] = useState('');
-    const [formMessageColor, setFormMessageColor] = useState('');
-
-    useEffect(() => {
-        if (validateEmail(email) && name.length > 0 && message.length > 0) {
-            setIsFormValid(true);
-        } else {
-            setIsFormValid(false);
-        }
-    }, [email, name, message]);
-
+const Contact: React.FC<ContactProps> = () => {
     return (
         <div className="site-page-content">
             <div style={styles.header}>

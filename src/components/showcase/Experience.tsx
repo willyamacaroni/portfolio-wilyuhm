@@ -3,7 +3,7 @@ import ResumeDownload from './ResumeDownload';
 
 export interface ExperienceProps {}
 
-const Experience: React.FC<ExperienceProps> = (props) => {
+const Experience: React.FC<ExperienceProps> = () => {
     return (
         <div className="site-page-content">
             <ResumeDownload />
