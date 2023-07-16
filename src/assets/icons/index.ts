@@ -7,6 +7,7 @@ import computerBig from './computerBig.png';
 import computerSmall from './computerSmall.png';
 import myComputer from './myComputer.png';
 import showcaseIcon from './showcaseIcon.png';
+import doom2Icon from './doom2Icon.png'
 import doomIcon from './doomIcon.png';
 import henordleIcon from './henordleIcon.png';
 import credits from './credits.png';
@@ -38,6 +39,7 @@ const icons = {
     windowExplorerIcon: windowExplorerIcon,
     windowsStartIcon: windowsStartIcon,
     trailIcon: trailIcon,
+    doom2Icon: doom2Icon,
 };
 
 export type IconName = keyof typeof icons;

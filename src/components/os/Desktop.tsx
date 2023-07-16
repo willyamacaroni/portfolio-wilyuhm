@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import Colors from '../../constants/colors';
 import ShowcaseExplorer from '../applications/ShowcaseExplorer';
 import Doom from '../applications/Doom';
+import Doom2 from '../applications/Doom2';
 import ShutdownSequence from './ShutdownSequence';
 import Toolbar from './Toolbar';
 import DesktopShortcut, { DesktopShortcutProps } from './DesktopShortcut';
@@ -31,6 +32,12 @@ const APPLICATIONS: {
         name: 'Portfolio',
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
+    },
+    doom2: {
+        key: 'doom2',
+        name: 'Doom2',
+        shortcutIcon: 'doom2Icon',
+        component: Doom2,
     },
     doom: {
         key: 'doom',
